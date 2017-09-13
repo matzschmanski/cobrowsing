@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   pdfSrc: string = '/assets/test.pdf';
+  page: number = 1;
 }
